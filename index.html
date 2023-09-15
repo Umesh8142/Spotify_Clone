@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Home</title>
+    <link rel="icon" type="image/x-icon" href="spotify.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="back d-flex justify-content-around align-items-center">
+        <nav class="side-bar">
+            <div class="home d-flex flex-column">
+                <p><i class="fa-solid fa-house pe-3 mb-3"></i>Home
+                </p>
+                <p><i class="fa-solid fa-magnifying-glass pe-3 mb-3"></i>
+                    Search
+                </p>
+            </div>
+            <div class="your-library d-flex flex-column">
+                <div class="ylrow-1 jbac">
+                    <p>Your Library</p>
+                    <div>
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="row-2 jcac mx-2">
+                    <span>Playlists</span>
+                </div>
+                <div class="row-3 jbac mt-4 px-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <select name="re" id="Recentlyadded">
+                        <option value="Recents">Recents</option>
+                        <option value="">Recently Added</option>
+                        <option value="">Creator</option>
+                        <option value="">Alphabetical</option>
+                    </select>
+                </div>
+                <div></div>
+
+            </div>
+
+        </nav>
+        <div class="play-list">
+            <div class="main-head jbac">
+                <div class="d-flex icons">
+                    <div class="arrow jcac fs-4"><i class="fa-solid fa-angle-left" style="color: #c6c7c7;"></i></div>
+                    <div class="arrow jcac fs-4"><i class="fa-solid fa-angle-right" style="color: #c6c7c7;"></i></div>
+                </div>
+                <div class="connect jcac">
+                    <div class="premium jcac">Explore Premium</div>
+                    <div class="install jcac"> <ion-icon name="arrow-down-circle-outline" class="me-1"></ion-icon>Install App</div>
+                    <div class="user jcac "><i class="fa-regular fa-user"></i></div>
+                </div>
+
+            </div>
+            <div class="r1">
+                <div class="list-title jbac px-3 py-2">
+                    <a href="">
+                        <h4 class="d-inline text-light fw-bolder">Shows to try</h4>
+                    </a>
+                    <a href="">
+                        <p class="fw-bold">Show all</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around align-items-center pl-row1 ">
+                    <div class="card c-1">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-2">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-3">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-4">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-5">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-6">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-7">
+                        <div class="jbac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r1">
+                <div class="list-title jbac px-3 py-2">
+                    <a href="">
+                        <h4 class="d-inline text-light fw-bolder">Shows to try</h4>
+                    </a>
+                    <a href="">
+                        <p class="fw-bold">Show all</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around align-items-center pl-row1 ">
+                    <div class="card c-1">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-2">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-3">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-4">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-5">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-6">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-7">
+                        <div class="jbac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r1">
+                <div class="list-title jbac px-3 py-2">
+                    <a href="">
+                        <h4 class="d-inline text-light fw-bolder">Shows to try</h4>
+                    </a>
+                    <a href="">
+                        <p class="fw-bold">Show all</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around align-items-center pl-row1 ">
+                    <div class="card c-1">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-2">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-3">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-4">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-5">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-6">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-7">
+                        <div class="jbac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r1">
+                <div class="list-title jbac px-3 py-2">
+                    <a href="">
+                        <h4 class="d-inline text-light fw-bolder">Shows to try</h4>
+                    </a>
+                    <a href="">
+                        <p class="fw-bold">Show all</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around align-items-center pl-row1 ">
+                    <div class="card c-1">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-2">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-3">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-4">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-5">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-6">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-7">
+                        <div class="jbac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r1">
+                <div class="list-title jbac px-3 py-2">
+                    <a href="">
+                        <h4 class="d-inline text-light fw-bolder">Shows to try</h4>
+                    </a>
+                    <a href="">
+                        <p class="fw-bold">Show all</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around align-items-center pl-row1 ">
+                    <div class="card c-1">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-2">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-3">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-4">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-5">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-6">
+                        <div class="jcac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                    <div class="card c-7">
+                        <div class="jbac dj">
+                            <img src="dj.jpg" class="img" alt="">
+                        </div>
+                        <h5 class="text-light">off the Record with</h4>
+                            <p class="mb-4">DJ Akademiks</p>
+                    </div>
+                </div>
+            </div>
+         
+            <footer >
+                <div class="fr1 jbac">
+                    <div class="table-1">
+                        <table>
+                            <tr>
+                                <th>Company</th>
+                                <th>Communities</th>
+                                <th>Useful links</th>
+                            </tr>
+                            <tr>
+                                <td><a href="">About</a></td>
+                                <td><a href="">For Artists</a></td>
+                                <td><a href="">Support</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="">Jobs</a></td>
+                                <td><a href="">Developers</a></td>
+                                <td><a href="">Free Mobile App</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="">For the Record</a></td>
+                                <td><a href="">Advertising</a></td>
+                                <td><a href="">Investors</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="socials d-flex ">
+                        <div class="soc-icons jcac mx-2"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="soc-icons jcac mx-2"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="soc-icons jcac mx-2"><i class="fa-brands fa-facebook"></i></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="fr2 jbac px-4">
+                    <div class="feedback ">
+                        <a href="">Legal</a>
+                        <a href="">Privacy Center</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                    <div class="copyright">
+                        © 2023 Spotify Cloned By Umesh
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+    </div>
+    <div class="player jbac ">
+            <div class="ply-1 jcac">
+                    <div class="music-icon jcac  ">
+                        <ion-icon name="musical-notes-outline"></ion-icon>
+                    </div>
+                    <div class="title mx-3">
+                        <h6>Jaane De</h6>
+                        <p>Darshan Raval</p>
+                    </div>
+                    <div class="heart">
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </div>
+            </div>
+        <div class="ply-2 flex-column jcac p-2 ">
+            <div class="music jbac">
+                <i class="fa-solid fa-shuffle "></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <div class="pause jcac">
+                    <i class="fa-solid fa-pause"></i>
+                </div>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="d-flex  align-items-baseline">
+                <pre>2.03  </pre>
+                <div class="timex ">
+                    <div>
+                    </div>
+                </div>
+                <pre>  3:55</pre>
+            </div>
+        </div>
+        <div class="ply-3 jbac">
+            <i class="fa-regular fa-circle-play"></i>
+            <img src="microphone.png" alt="" class="ms-2">
+            <img src="device (1).png" alt="" class="ms-2">
+            <i class="fa-solid fa-volume-low ms-2" ></i>
+            <input type="range" class="bg-success ms-2" name="" id="" >
+            <img src="window.png" alt="" class="ms-2">
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

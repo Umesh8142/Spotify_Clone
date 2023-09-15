@@ -1,0 +1,365 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.back{
+  
+}
+.side-bar{
+  padding: 8px;
+  width: 400px;
+  height: 90vh;
+  
+}
+.jcac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jbac {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home {
+  height: 12vh;
+  width: 100%;
+  color: #b3b3b3;
+  border-radius: 8px;
+  background-color: #121212;
+  padding: 10px;
+ 
+}
+.home > p {
+  line-height:0.1;
+  padding-inline: 10px;
+  font-size: 18px;
+}
+.home >p {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.your-library {
+  position: relative;
+  height: 75vh;
+  color: #b3b3b3;
+  border-radius: 8px;
+  background-color: #121212;
+  padding: 10px;
+  margin-top: 8px;
+}
+.ylrow-1 {
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ylrow-1 > div > i {
+  padding-inline: 10px;
+}
+.row-2{
+  background-color: #232323;
+  width: 100px;
+  height: 35px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 15px;
+}
+.row-3 > i {
+  font-size: 18px;
+}
+select {
+  color: #b3b3b3;
+  border: none;
+  background-color: #181818;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.play-list {
+  width: 78.5%;
+  height: 88.5vh;
+  overflow-y: scroll;
+  color: #b3b3b3;
+  border-radius: 8px;
+  background-color: #121212;
+  padding: 8px;
+  padding-top: 0;
+  margin-right: 8px;
+}
+.main-head{
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    background-color: #121212;
+}
+.list-title>a{
+    text-decoration: none;
+}
+.list-title>a>p{
+  color: #b3b3b3;;
+}
+.list-title>a:hover{
+  text-decoration: underline;
+  color: #b3b3b3;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 10px;
+  margin:10px;
+}
+.premium {
+  background-color: white;
+  height: 40px;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+.premium:hover,.install:hover,.user:hover{
+  scale: 1.1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.install {
+  background-color: black;
+  height: 40px;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+.install>ion-icon{
+  font-size: 20px;
+}
+.user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.card {
+  
+  margin: 8px;
+  width: 210px !important;
+  border-radius: 10px !important;
+  background-color: #181818 !important;
+  
+}
+.dj{
+  width: 100%; 
+  padding: 10px;
+}
+.img{
+  width: 100%;
+}
+
+.card:hover{
+    background-color: #2f2f2f !important;
+    cursor: pointer;
+}
+.card > h5,.card > p {
+  padding-inline: 10px;
+}
+.feedback>a{
+  text-decoration: none;
+   color: #b3b3b3;
+   padding-inline: 10px;
+}
+.feedback>a:hover{
+  color: white;
+}
+.fr2{
+  height: 8vh;
+}
+.table-1{
+ padding: 20px;
+ margin-top: 30px;
+}
+
+td{
+  padding: 10px;
+}
+th{
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+}
+td>a{
+  text-decoration:none ;
+  color: #b3b3b3;
+}
+td>a:hover{
+  text-decoration:underline ;
+  color: white;
+}
+.soc-icons{
+  width: 45px;
+  height: 45px;
+  background-color: #2f2f2f;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+.soc-icons:hover{
+    background-color: #4d4d4d;
+    cursor: pointer;
+}
+.music > i {
+  padding: 10px;
+  font-size: 20px;
+  color: #4d4d4d;
+  margin-inline: 10px;
+}
+.pause{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: #4d4d4d;
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+.music > i:hover{
+    color: white;
+}
+.pause:hover {
+  background-color: white;
+  scale: 1.2;
+  transition: 0.2s;
+}
+.timex {
+  margin-top: 10px;
+  width: 40vw;
+  height: 4px;
+  background-color: #4d4d4d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.timex>div{
+    background-color: white;
+    width: 30%;
+    height: 100%;  
+}
+.pl-row1 {
+  width: 100%;
+}
+.player {
+  width: 100%;
+  height: auto;
+  color: #b3b3b3;
+  background-color: black;
+}
+.ply-3>img{
+  width: 20px;
+  height: 20px;
+}
+.ply-1{
+  width: 350px;
+  padding: 8px;
+  margin-left: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.ply-3{
+  width: 350px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.music-icon{
+  width: 50px;
+  height: 50px;
+  background-color: #4d4d4d;
+  font-size: 30px;
+  border-radius: 8px;
+}
+.heart{
+  font-size: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .pl-row1{
+    overflow-x: scroll;
+  }
+  .fr1,.fr2{
+    display: flex;
+    flex-direction: column;
+  }
+  .premium{
+    display: none;
+  }
+  .c-1,.c-2,.c-3,.c-4,.c-5,.c-6{
+    display: none;
+  }
+  .title{
+    min-width: 160px;
+  }
+  .install{
+    width: 120px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0px ;
+  }
+  .install>ion-icon{
+    display: none;
+  }
+  .user{
+    margin-left: 0px ;
+  }
+  .ply-3{
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width:768px) and (max-width:950px) {
+  .c-1,.c-2,.c-3,.c-5,.c-4{
+    display: none;
+  }
+  
+  
+}
+@media screen and (min-width:950px) and (max-width:1200px)  {
+  .c-1,.c-2,.c-3,.c-5{
+    display: none;
+  }
+  
+}
+@media screen and (min-width:1200px) and (max-width:1400px)  {
+  .c-1,.c-2,.c-3{
+    display: none;
+  }
+  
+}
+@media screen and (min-width:1400px) and (max-width:1600px)  {
+  .c-1,.c-2{
+    display: none;
+  }
+}
+@media screen and (min-width:1600px) and (max-width:1800px)  {
+  .c-1{
+    display: none;
+  }
+}
